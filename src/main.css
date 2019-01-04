@@ -1,0 +1,44 @@
+html, body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #bada55;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 13px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button2 {
+  background-color: rebeccapurple;
+  color: white;
+  width: 400px;
+  font-size: 3em;
+}
+
+.button3 {
+  background-color: darkorange;
+  color: white;
+}
+
+.button4 {
+  background-color: indianred;
+  color: white;
+  line-height: 80px;
+  border-radius: 20px;
+}
+
+.test {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}

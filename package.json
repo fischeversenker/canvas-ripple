@@ -1,0 +1,18 @@
+{
+  "name": "canvas-ripple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cp index.html dist/index.html && cp src/main.css dist/main.css && tsc && http-server dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
