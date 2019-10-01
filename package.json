@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cp index.html dist/index.html && cp src/main.css dist/main.css && tsc && http-server dist/"
+    "start": "run-s clean mkdist prepare:* compile serve",
+    "clean": "rm -rf dist",
+    "mkdist": "mkdir dist",
+    "prepare:html": "cp index.html dist/index.html",
+    "prepare:css": "cp src/main.css dist/main.css",
+    "compile": "tsc",
+    "serve": "http-server dist/"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +19,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.5"
   }
 }
