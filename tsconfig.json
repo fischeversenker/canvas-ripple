@@ -13,6 +13,6 @@
       "node_modules"
   ],
   "files": [
-    "src/ripple-directive.ts"
+    "src/main.ts"
   ]
 }
